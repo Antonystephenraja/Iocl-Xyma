@@ -1,0 +1,46 @@
+@media (max-width: 2560px) {
+    .height {
+        height: 100vh;
+    }
+}
+
+.height{
+    height: 120vh;
+}
+/* Inside your CSS or SCSS file */
+.table_border th, .table_border td {
+    border: 1px solid #ccc; 
+    color: #fff; 
+    transition: background-color 0.3s; 
+  }
+  
+  .table_border th {
+    border-right: none; 
+  }
+  
+  .table2_border tr:last-child td {
+    border-bottom: none;
+  }
+  .table_border tr:hover {
+    background-color: #393d52;
+    cursor: pointer;
+  }
+
+  .table2_border tr:hover {
+    background-color: #393d52; 
+    cursor: pointer;
+  }
+
+
+  .table2_border th, .table2_border td {
+    border: 1px solid #ccc; 
+    color: #fff; 
+  }
+  
+  .table2_border th {
+    border-right: none; 
+  }
+  
+  .table2_border tr:last-child td {
+    border-bottom: none;
+  }
